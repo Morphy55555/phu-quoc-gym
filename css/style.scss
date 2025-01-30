@@ -21,11 +21,6 @@ $primary1: #ff2953;
   }
 }
 
-@mixin upperBold {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
 body {
   @include main-font;
   color: #000000;
