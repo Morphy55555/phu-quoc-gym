@@ -6,7 +6,7 @@ body {
 
 .layout_padding {
   padding-top: 60px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .layout_padding2 {
@@ -664,7 +664,7 @@ a:focus {
   padding: 50px 30px;
   margin-bottom: 30px;
   height: 80vh;
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 30px rgba(254, 254, 254, 0.2);
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   backdrop-filter: blur(10px);
   background:content-box;
@@ -677,7 +677,7 @@ a:focus {
 
 .pricing_box.featured {
   border: none;
-  background: #adb5bd;
+  background: #66acf3;
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
@@ -730,12 +730,12 @@ a:focus {
   margin: 0 0 35px 0;
 }
 
-.pricing_content ul li {
+/* .pricing_content ul li {
   padding: 15px 0;
   color: #ffffff;
   border-bottom: 1px solid rgba(255, 251, 251, 0.05);
   font-weight: 500;
-}
+} */
 
 .pricing_content ul li i {
   color: #1a2a6c;
@@ -780,3 +780,33 @@ a:focus {
     font-size: 42px;
   }
 }
+
+/* List Item Spacing */
+.pricing_box ul li {
+    padding: 12px 0;  /* Increased padding */
+    margin-bottom: 8px;  /* Added margin between items */
+    color: inherit;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Optional: adds subtle separation */
+}
+
+ .pricing_box ul li:last-child {
+    border-bottom: none;  /* Remove border from last item */
+    margin-bottom: 0;  /* Remove margin from last item */
+} 
+
+/* Ensure consistent spacing in all navigation lists */
+.nav-menu li {
+    margin-bottom: 15px;  /* Match your existing spacing */
+}
+
+/* Ensure consistent spacing in all other lists */
+ul li {
+    margin-bottom: 2em;  /* Match your existing spacing */
+}
+
+/* Remove margin from last items to prevent extra spacing */
+ul li:last-child {
+    margin-bottom: 0;
+}
+
