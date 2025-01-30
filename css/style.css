@@ -677,7 +677,8 @@ a:focus {
 
 .pricing_box.featured {
   border: none;
-  background: #66acf3;
+  /* background: #66acf3; */
+  background: url(../images/us-bg.jpg);
   transform: scale(1.05);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
@@ -785,7 +786,7 @@ a:focus {
 .pricing_box ul li {
     padding: 12px 0;  /* Increased padding */
     margin-bottom: 8px;  /* Added margin between items */
-    color: inherit;
+    color: white;
     font-size: 16px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);  /* Optional: adds subtle separation */
 }
