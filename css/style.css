@@ -174,11 +174,6 @@ a:focus {
           align-items: center;
 }
 
-.user_option a {
-  color: #ffffff;
-  margin: 10px 30px;
-}
-
 .custom_nav-container .nav_search-btn {
   background-image: url(../images/search-icon.png);
   background-size: 22px;
